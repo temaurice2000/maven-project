@@ -1,5 +1,7 @@
 provider "aws" {
     region = "us-east-2"
+    access_key = ""
+    secret_key = ""
 }
 resource "aws_vpc" "my_vpc" {
     cidr_block = "192.168.0.0/24"
